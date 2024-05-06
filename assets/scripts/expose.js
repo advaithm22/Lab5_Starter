@@ -10,16 +10,17 @@ function init() {
     const chosen = horn.value;
     console.log(chosen);
     if(chosen === 'air-horn'){
-      hornImg.src = '/assets/images/air-horn.svg';
-      audio.src = '/assets/audio/air-horn.mp3';
+      hornImg.src = 'assets/images/air-horn.svg';
+      audio.src = 'assets/audio/air-horn.mp3';
     }
+    
     if(chosen === 'car-horn'){
-      hornImg.src = '/assets/images/car-horn.svg';
-      audio.src = '/assets/audio/car-horn.mp3';
+      hornImg.src = 'assets/images/car-horn.svg';
+      audio.src = 'assets/audio/car-horn.mp3';
     }
     if(chosen === 'party-horn'){
-      hornImg.src = '/assets/images/party-horn.svg';
-      audio.src = '/assets/audio/party-horn.mp3';
+      hornImg.src = 'assets/images/party-horn.svg';
+      audio.src = 'assets/audio/party-horn.mp3';
     }
     console.log(hornImg.src);
   });
