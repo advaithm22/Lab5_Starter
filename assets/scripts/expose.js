@@ -9,9 +9,19 @@ function init() {
   horn.addEventListener('change', function() {
     const chosen = horn.value;
     console.log(chosen);
-    hornImg.src = '/assets/images/' + chosen + '.svg';
+    if(chosen === 'air-horn'){
+      hornImg.src = '/assets/images/air-horn.svg';
+      audio.src = '/assets/audio/air-horn.mp3';
+    }
+    if(chosen === 'car-horn'){
+      hornImg.src = '/assets/images/car-horn.svg';
+      audio.src = '/assets/audio/car-horn.mp3';
+    }
+    if(chosen === 'party-horn'){
+      hornImg.src = '/assets/images/party-horn.svg';
+      audio.src = '/assets/audio/party-horn.mp3';
+    }
     console.log(hornImg.src);
-    audio.src = '/assets/audio/' + chosen + '.mp3';
   });
   const volume = document.getElementById('volume');
   const volumeIcon = document.querySelector('#volume-controls img');
