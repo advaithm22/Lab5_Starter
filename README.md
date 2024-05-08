@@ -2,6 +2,7 @@
 Advaith Modali
 
 Expose - https://advaithm22.github.io/Lab5_Starter/expose.html
+Explore - https://advaithm22.github.io/Lab5_Starter/explore.html
 
 
 
