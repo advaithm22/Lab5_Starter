@@ -30,16 +30,16 @@ function init() {
     const vol = parseInt(volume.value);
     console.log(vol);
     if(vol == 0){
-      volumeIcon.src = '/assets/icons/volume-level-0.svg';
+      volumeIcon.src = 'assets/icons/volume-level-0.svg';
       console.log(volumeIcon.src);
     } else if (vol > 0 && vol < 33){
-      volumeIcon.src = '/assets/icons/volume-level-1.svg';
+      volumeIcon.src = 'assets/icons/volume-level-1.svg';
       console.log(volumeIcon.src);
     } else if (vol >= 33 && vol< 67){
-      volumeIcon.src = '/assets/icons/volume-level-2.svg';
+      volumeIcon.src = 'assets/icons/volume-level-2.svg';
       console.log(volumeIcon.src);
     } else {
-      volumeIcon.src = '/assets/icons/volume-level-3.svg';
+      volumeIcon.src = 'assets/icons/volume-level-3.svg';
       console.log(volumeIcon.src);
     }
     audio.volume = vol / 100;
